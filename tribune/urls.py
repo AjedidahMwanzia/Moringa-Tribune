@@ -20,5 +20,8 @@ from django.urls import re_path as url,include
 urlpatterns = [
   
     url(r'^admin/', admin.site.urls),
-    url(r'',include('news.urls'))
+    url(r'',include('news.urls')),
+    url(r'^members/',include('django.contrib.auth.urls')),
+    url(r'^members/',include('members.urls')),
+    
 ]

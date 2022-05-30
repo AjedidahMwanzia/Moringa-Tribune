@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'news',
-    'bootstrap3'
+    'bootstrap3',
+    'members',
     
 ]
 
@@ -141,5 +142,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'ajedidah.mwanzia@student.moringaschool.com'
-EMAIL_HOST_PASSWORD = 'jay'
+EMAIL_HOST_USER = 'ajaymwanzia@gmail.com'
+EMAIL_HOST_PASSWORD = 'jeddy2018'
