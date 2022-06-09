@@ -10,6 +10,9 @@ django-bootstrap3 = "*"
 psycopg2 = "*"
 pillow = "*"
 python-decouple = "*"
+django-urls = "*"
+django-registration = "*"
+django-registration-redux = "*"
 
 [dev-packages]
 
